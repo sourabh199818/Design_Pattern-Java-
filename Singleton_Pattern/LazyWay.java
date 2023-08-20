@@ -2,7 +2,7 @@ package Singleton_Pattern;
 
 public class LazyWay {
     //This is Lazy way of creating a Singleton Object
-    private static LazyWay obj;
+    private  static LazyWay obj;
     public static LazyWay getObj()
     {
         if(obj==null)
